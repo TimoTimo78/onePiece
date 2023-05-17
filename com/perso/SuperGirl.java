@@ -18,9 +18,9 @@ public class SuperGirl extends HommePoisson {
     }
     public void swim(int x, int y, int z)
     {
-        this.posX = x;
-        this.posY = y;
-        this.posZ = z;
+        // this.posX = x;
+        // this.posY = y;
+        // this.posZ = z;
         
         System.out.println("SuperGirl nage en X :" + this.posX + " et en Y : " + this.posY + " et en Z : " + this.posZ);
     }
