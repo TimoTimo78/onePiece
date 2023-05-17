@@ -9,13 +9,12 @@ public class SuperGirl extends HommePoisson {
         
 
     }
-    public void fly(int x, int y, int z)
+    public void move(int x, int y)
     {
-        this.posX = x;
-        this.posY = y;
-        this.posZ = z;
-
-        System.out.println("SuperGirl vole en X :" + this.posX + " et en Y : " + this.posY + " et en Z : " + this.posZ);
+        // this.posX = x;
+        // this.posY = y;
+        
+        System.out.println("SuperGirl se déplace en X :" + this.posX + " et en Y : " + this.posY);
     }
     public void swim(int x, int y, int z)
     {
@@ -24,5 +23,13 @@ public class SuperGirl extends HommePoisson {
         this.posZ = z;
         
         System.out.println("SuperGirl nage en X :" + this.posX + " et en Y : " + this.posY + " et en Z : " + this.posZ);
+    }
+    public void fly(int x, int y, int z)
+    {
+        this.posX = x;
+        this.posY = y;
+        this.posZ = z;
+
+        System.out.println("SuperGirl vole en X :" + this.posX + " et en Y : " + this.posY + " et en Z : " + this.posZ);
     }
 }
