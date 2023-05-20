@@ -7,7 +7,6 @@ public class SuperGirl extends HommePoisson {
     public SuperGirl(String name) {
         super(name);
         
-
     }
     public void move(int x, int y)
     {

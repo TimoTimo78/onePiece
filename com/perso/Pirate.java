@@ -1,7 +1,7 @@
 package com.perso;
 
 public class Pirate {
-    public Pirate(String name)
+    public Pirate(String name) throws PirateException
     {
         this.name = name;
         this.posX = 42;
@@ -12,7 +12,7 @@ public class Pirate {
     {
         this.posX = x;
         this.posY = y;
-        System.out.println("Le pirate se deplace en X:" + this.posX + " et en Y : " + this.posY);
+        System.out.println("Le pirate se deplace en X : " + this.posX + " et en Y : " + this.posY);
     }
 
     protected String name;
