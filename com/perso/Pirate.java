@@ -1,7 +1,7 @@
 package com.perso;
 
 public class Pirate {
-    public Pirate(String name) throws PirateException
+    public Pirate(String name)
     {
         this.name = name;
         this.posX = 42;

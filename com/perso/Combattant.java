@@ -1,14 +1,14 @@
-package com.perso;
+// package com.perso;
 
-public class Combattant extends EtreVivant{
-    public Combattant()
-    {
-        race = "Combattant";
-    }
+// public class Combattant extends EtreVivant{
+//     public Combattant()
+//     {
+//         String race = "Combattant";
+//     }
 
-    public void respirer()
-    {
-        System.out.println("combattant respire normalement !");
-    }
+//     public void respirer()
+//     {
+//         System.out.println("combattant respire normalement !");
+//     }
     
-}
+// }

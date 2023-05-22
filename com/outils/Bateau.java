@@ -1,11 +1,15 @@
 package com.outils;
 
-    public class Bateau extends Vehicule{
-        public Bateau(){
-            this.speed = "Noeud";
-        }
-        public void deplaceXY(int x, int y, int z);
-        {
-            System.out.println("Le bateau se deplace en X:" + x + " et en Y : " + y);
-        }
+public class Bateau extends Vehicule {
+    private String posX;
+    private String posY;
+
+    public Bateau(int i) {
+        this.speed = "Noeud";
+    }
+
+    @Override
+    public void deplaceXY(int x, int y) {
+        System.out.println("Le Bateau se deplace en X : " + this.posX + " et en Y : " + this.posY);
+    }
 }

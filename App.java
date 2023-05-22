@@ -1,32 +1,26 @@
-
-import com.perso.*;
+// import com.perso.*;
 import com.outils.*;
 
-public class App {
-    
-    public static void main(String[] args) {
-        
-//         // loffi pirate
-//         // jimbe pirate homme poisson
-//         // danaSpG SuperGirl
-
-//         // Pirate p = new Pirate("Loffi");
-//         // p.move(32, 42);
-//         // HommePoisson hp = new HommePoisson("Jimbe");
-//         // hp.move(45, 24);
-//         // hp.swim(5, 15, 25);
-//         // SuperGirl sp = new SuperGirl("DanaSpG");
-//         // sp.move(25, 40);
-//         // sp.swim(10, 20, 40);
-//         // sp.fly(24, 30, 25);
-//         // Phoenix ph = new Phoenix("Marco");
-//         // ph.fly(20, 40, 35);
-//         // Combattant c = new Combattant();
-//         // System.out.println(c.kezako());
-            Chalet ch = new Chalet();
-            System.out.println(ch.getNbrPieces());
-            ch.setNbrPieces(nbr:4);
-            System.out.println(ch.get());
-
+public class App{
+    public static void main(String[] args)
+    {
+    //    Pirate p = new Pirate("Luffi");
+    //    p.move(32, 47);
+    //    HommePoisson hp = new HommePoisson("Jimbe");
+    //    hp.move(42, 35);
+    //    hp.swim(10);
+    //    SuperBoy sb = new SuperBoy("spb", "Hero", 20);
+    //    sb.fly(20, 10, 40);
+    //    Phenix ph = new Phenix("Marco");
+    //    ph.fly(4, 80, 30);
+    //    sb.respirer();
+    //    sb.dormir();
+    //    sb.seReproduire();
+    //    Bateau bt = new Bateau(2);
+    //    bt.deplaceXY(5, 10);
+        Chalet ch = new Chalet();
+        System.out.println(ch.getNbrPieces());
+        ch.setNbrPieces(4);
+        System.out.println(ch.getNbrPieces());
     }
 }

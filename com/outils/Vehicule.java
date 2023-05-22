@@ -1,13 +1,8 @@
 package com.outils;
 
-public class Waver extends Vehicule{
-    public Waver()
-    {
-        this.speed = "Noeud";
-    }
+public abstract class Vehicule {
 
-    public void deplaceXY(int x, int y)
-    {
-        System.out.println("Le Waver se deplace en X:" + x + " et en Y : " + y);
-    }
+    protected String speed;
+    public abstract void deplaceXY(int x, int y);
+    
 }
